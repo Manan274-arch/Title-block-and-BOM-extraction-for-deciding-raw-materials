@@ -62,7 +62,7 @@ _HEADER_SPECS = (
     _HeaderSpec("material", ("MATERIAL",)),
 )
 _BOUNDARY_HEADERS = ("REMARKS", "REMARK", "NOTES")
-_ITEM_PATTERN = re.compile(r"^\d+[A-Z]?(?:[-.][A-Z0-9]+)?$", re.IGNORECASE)
+_ITEM_PATTERN = re.compile(r"^\d+[A-Z]?(?:-\d+[A-Z]?)?$", re.IGNORECASE)
 _QUANTITY_PATTERN = re.compile(r"^\d+(?:\.\d+)?$")
 
 

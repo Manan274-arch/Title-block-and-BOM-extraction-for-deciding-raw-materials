@@ -1,0 +1,112 @@
+{
+  "source_file": "LPA-004.pdf",
+  "title_block": {
+    "drawing_number": "LPA-004",
+    "drawing_title": "LEVER PRESS ASSEMBLY",
+    "revision": "A",
+    "material": "AS PER BOM",
+    "scale": "1:2",
+    "drawn_by": "R. KUMAR",
+    "checked_by": "S. NAIR",
+    "approved_by": "P. MENON",
+    "drawing_date": "18-05-2024"
+  },
+  "bom": [
+    {
+      "item_number": "1",
+      "part_name": "HANDLE GRIP",
+      "quantity": "1",
+      "material": "RUBBER",
+      "remarks": "-"
+    },
+    {
+      "item_number": "2",
+      "part_name": "LEVER",
+      "quantity": "1",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "3",
+      "part_name": "CONNECTING LINK",
+      "quantity": "1",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "4",
+      "part_name": "PIN Ø12 x 30",
+      "quantity": "1",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "5",
+      "part_name": "RAM",
+      "quantity": "1",
+      "material": "EN8",
+      "remarks": "-"
+    },
+    {
+      "item_number": "6",
+      "part_name": "RETURN SPRING",
+      "quantity": "1",
+      "material": "SPRING STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "7",
+      "part_name": "BASE",
+      "quantity": "1",
+      "material": "CAST IRON",
+      "remarks": "-"
+    },
+    {
+      "item_number": "8",
+      "part_name": "HEX BOLT M10 x 30",
+      "quantity": "4",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    }
+  ],
+  "raw_material_list": [
+    {
+      "material": "CAST IRON",
+      "quantity": 1.0,
+      "source_bom_rows": [
+        7
+      ]
+    },
+    {
+      "material": "EN8",
+      "quantity": 1.0,
+      "source_bom_rows": [
+        5
+      ]
+    },
+    {
+      "material": "MILD STEEL",
+      "quantity": 7.0,
+      "source_bom_rows": [
+        2,
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "material": "RUBBER",
+      "quantity": 1.0,
+      "source_bom_rows": [
+        1
+      ]
+    },
+    {
+      "material": "SPRING STEEL",
+      "quantity": 1.0,
+      "source_bom_rows": [
+        6
+      ]
+    }
+  ]
+}

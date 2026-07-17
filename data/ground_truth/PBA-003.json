@@ -1,0 +1,92 @@
+{
+  "source_file": "PBA-003.pdf",
+  "title_block": {
+    "drawing_number": "PBA-003",
+    "drawing_title": "PILLOW BLOCK BEARING ASSEMBLY",
+    "revision": "A",
+    "material": "AS PER BOM",
+    "scale": "1:2",
+    "drawn_by": "R. KUMAR",
+    "checked_by": "S. NAIR",
+    "approved_by": "P. MENON",
+    "drawing_date": "17-05-2024"
+  },
+  "bom": [
+    {
+      "item_number": "1",
+      "part_name": "HEX BOLT M10 x 30",
+      "quantity": "2",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "2",
+      "part_name": "SPRING WASHER Ø10",
+      "quantity": "2",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "3",
+      "part_name": "BEARING CAP",
+      "quantity": "1",
+      "material": "CAST IRON",
+      "remarks": "-"
+    },
+    {
+      "item_number": "4",
+      "part_name": "BALL BEARING 6205",
+      "quantity": "1",
+      "material": "BEARING STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "5",
+      "part_name": "HOUSING",
+      "quantity": "1",
+      "material": "CAST IRON",
+      "remarks": "-"
+    },
+    {
+      "item_number": "6",
+      "part_name": "PLAIN WASHER Ø10",
+      "quantity": "2",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    },
+    {
+      "item_number": "7",
+      "part_name": "DOWEL PIN Ø10 x 20",
+      "quantity": "2",
+      "material": "MILD STEEL",
+      "remarks": "-"
+    }
+  ],
+  "raw_material_list": [
+    {
+      "material": "BEARING STEEL",
+      "quantity": 1.0,
+      "source_bom_rows": [
+        4
+      ]
+    },
+    {
+      "material": "CAST IRON",
+      "quantity": 2.0,
+      "source_bom_rows": [
+        3,
+        5
+      ]
+    },
+    {
+      "material": "MILD STEEL",
+      "quantity": 8.0,
+      "source_bom_rows": [
+        1,
+        2,
+        6,
+        7
+      ]
+    }
+  ]
+}
