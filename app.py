@@ -105,21 +105,26 @@ def _render_result(processed: ProcessedUpload) -> None:
     if processed.export_error:
         st.error(processed.export_error)
 
+    st.caption("Click a button below to download the file. Your extraction results will remain unchanged.")
     download_columns = st.columns(2)
     with download_columns[0]:
         st.download_button(
-            "JSON result",
+            "Click to download JSON result",
             data=processed.json_bytes or drawing.model_dump_json(indent=2).encode("utf-8"),
             file_name=processed.json_name,
             mime="application/json",
+            key="download_json_result",
+            on_click="ignore",
             use_container_width=True,
         )
     with download_columns[1]:
         st.download_button(
-            "Material CSV",
+            "Click to download material CSV",
             data=processed.csv_bytes or b"material,quantity,source_bom_rows\n",
             file_name=processed.csv_name,
             mime="text/csv",
+            key="download_material_csv",
+            on_click="ignore",
             use_container_width=True,
         )
 
