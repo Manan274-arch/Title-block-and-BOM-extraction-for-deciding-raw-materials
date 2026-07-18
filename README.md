@@ -57,6 +57,12 @@ python -m pip install -r requirements.txt
 python main.py data\sample_drawings\SBA-001.pdf
 ```
 
+For browser-based PDF upload and result tables:
+
+```powershell
+streamlit run app.py
+```
+
 Generated files are written to `outputs/json/` and `outputs/csv/`. Useful CLI
 options include:
 

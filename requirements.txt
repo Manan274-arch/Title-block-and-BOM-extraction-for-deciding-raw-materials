@@ -1,3 +1,4 @@
 pydantic>=2.0,<3.0
 pymupdf
 reportlab>=4.0,<5.0
+streamlit>=1.40,<2.0
